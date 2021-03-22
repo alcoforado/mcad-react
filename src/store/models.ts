@@ -16,7 +16,7 @@ export interface TopologyType {
 
 
 
-export interface StoreRootState {
+export interface ShapesRootState {
     PaiterTypes:PainterType[];
     TopologyTypes:TopologyType[];
     SObjects:{[id:string]:SceneObject};
