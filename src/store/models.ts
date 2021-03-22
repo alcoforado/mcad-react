@@ -17,10 +17,10 @@ export interface TopologyType {
 
 
 export interface ShapesRootState {
-    PaiterTypes:PainterType[];
+    PainterTypes:PainterType[];
     TopologyTypes:TopologyType[];
     SObjects:{[id:string]:SceneObject};
-    DisplayCreateShapeDialog:boolean;
+    
 }
 
 export class UIState 
